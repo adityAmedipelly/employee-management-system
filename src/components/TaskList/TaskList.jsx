@@ -1,4 +1,4 @@
-function TaskList() {
+function TaskList({data}) {
   return (
     <div
       id="tasklist"
