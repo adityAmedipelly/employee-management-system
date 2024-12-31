@@ -1,26 +1,39 @@
-import { createContext, useEffect, useState } from "react"
-import { getLocalStorge, setLocalStorge } from "../utils/localStorage"
+import { createContext, useEffect, useState,useCallback } from "react"
+import { getLocalStorage, setLocalStorage } from "../utils/localStorage"
 
  export const AuthContext = createContext()
 
 function AuthProvider({children}) {
 
-  
-    const[ userData,  setUserData] = useState(null)
-   
-    useEffect(()=>{
-        setLocalStorge()
-    const {employees} = getLocalStorge()
-     setUserData(employees) 
-    },[])
+  const [userData, setUserData] = useState(null)
+
+  const updateUserData = useCallback((newData) => {
+    setUserData(newData)
+    localStorage.setItem('employees', JSON.stringify(newData))
+  }, [])
+
+  useEffect(() => {
+    setLocalStorage()
+    const { employees } = getLocalStorage()
+    setUserData(employees)
+
+    
+    const handleStorageChange = (e) => {
+      if (e.key === 'employees') {
+        setUserData(JSON.parse(e.newValue))
+      }
+    }
+
+    window.addEventListener('storage', handleStorageChange)
+    return () => window.removeEventListener('storage', handleStorageChange)
+  }, [])
 
   return (
-    <div>
-      <AuthContext.Provider value = {[userData,setUserData]}>
+    <AuthContext.Provider value={[userData, updateUserData]}>
       {children}
-      </AuthContext.Provider>
-    </div>
+    </AuthContext.Provider>
   )
+ 
 }
 
 export default AuthProvider

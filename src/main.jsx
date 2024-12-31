@@ -5,13 +5,10 @@ import App from './App.jsx'
 import AuthProvider from './contex/AuthProvider.jsx'
 
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-<AuthProvider>
-<App/>
-</AuthProvider>
-  
+    <AuthProvider>
+      <App />
+    </AuthProvider>
   </StrictMode>,
 )
