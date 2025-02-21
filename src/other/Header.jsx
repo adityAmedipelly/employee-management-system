@@ -1,11 +1,8 @@
 
 import { showSuccessToast } from "../utils/toastConfig"
 
-
-
 function Header( { data,changeUser }) {
 
-  
   const logOutUser = () => {
     localStorage.setItem("loggedInUser", "")
     changeUser("")
@@ -26,8 +23,6 @@ return (
         </button>
     </div>
 )
-
-
   
 }
 
