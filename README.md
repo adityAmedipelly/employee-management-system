@@ -35,7 +35,11 @@ Below are the default login credentials to access the application:
    ```sh
    git clone https://github.com/adityAmedipelly/employee-management-system.git
 
+ ```sh
    npm install
 
-   npm run dev
+ ```sh
+     npm run dev
+
+   
 
