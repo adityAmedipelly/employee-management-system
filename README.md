@@ -32,15 +32,20 @@ Below are the default login credentials to access the application:
 ## Installation
 
 1. Clone the repository:
-              ```sh
-git clone https://github.com/adityAmedipelly/employee-management-system.git
-
    ```sh
-npm install
+   git clone https://github.com/kstubhieeee/StaffZen
+   ```
 
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-```sh
-npm run dev
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
 
 
 
