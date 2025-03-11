@@ -32,14 +32,23 @@ Below are the default login credentials to access the application:
 ## Installation
 
 1. Clone the repository:
+              ```sh
+git clone https://github.com/adityAmedipelly/employee-management-system.git
+
    ```sh
-   git clone https://github.com/adityAmedipelly/employee-management-system.git
+npm install
 
- ```sh
-   npm install
 
- ```sh
-     npm run dev
+```sh
+npm run dev
+
+
+
+
+
+
+
+
 
    
 
