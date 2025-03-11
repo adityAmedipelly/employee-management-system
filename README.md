@@ -46,7 +46,15 @@ Below are the default login credentials to access the application:
    npm run dev
    ```
 
+![App Screenshot](https://github.com/adityAmedipelly/employee-management-system/blob/1ba37c1aa05fcd0b5c37aac3baf0f69bd540c802/WhatsApp%20Image%202025-03-11%20at%2019.03.16.jpeg)
+
+![App Screenshot](https://github.com/adityAmedipelly/employee-management-system/blob/79c96959d243d87f94ca82b04aa3661ebaef45c1/WhatsApp%20Image%202025-03-11%20at%2019.03.28.jpeg)
+
+
 ![App Screenshot](https://github.com/adityAmedipelly/employee-management-system/blob/619b57606c854ee05f57b9e5559f27f14113666a/WhatsApp%20Image%202025-03-11%20at%2018.46.47.jpeg)
+
+![App Screenshot](https://github.com/adityAmedipelly/employee-management-system/blob/cf9f87380696d63ba085d9a9e987b178e1b65537/WhatsApp%20Image%202025-03-11%20at%2019.03.35.jpeg)
+
 
 
 
