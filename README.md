@@ -1,4 +1,4 @@
-# StaffZen
+# Employee-management-system
 
 An employee task management web application that supports role-based login (admin and employee) 
 and provides features like task creation, updating, marking as completed/failed, and viewing task statistics.
@@ -23,3 +23,19 @@ Below are the default login credentials to access the application:
 3. **Employee 3:**
    - **Email:** [employee3@example.com](mailto:employee3@example.com)
    - **Password:** 123
+     
+3. **Employee 4:**
+   - **Email:** [employee4@example.com](mailto:employee4@example.com)
+   - **Password:** 123
+  
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/adityAmedipelly/employee-management-system.git
+
+   npm install
+
+   npm run dev
+
