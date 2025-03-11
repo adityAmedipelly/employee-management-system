@@ -50,6 +50,15 @@ const Login = ({ handleLogin }) => {
                         Login
                     </button>
                 </form>
+                <div className=" pt-4 font-bold text-center  ">
+          <a
+            href="https://github.com/adityAmedipelly/employee-management-system"
+            target="_blank" 
+            className="text-gray-400  text-sm  tracking-wider font-bold text-center  hover:text-blue-800 transition duration-300"
+          >
+            Visit GitHub for Login Credentials
+          </a>
+        </div>
             </div>
         </div>
     )
