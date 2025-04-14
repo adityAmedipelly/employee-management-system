@@ -210,7 +210,7 @@ const admin = [{
 }];
 
 export const setLocalStorage = () => {
-    //whenever passing any value pass using stringify
+
     localStorage.setItem('employees', JSON.stringify(employees))
     localStorage.setItem('admin', JSON.stringify(admin))
 }
@@ -222,6 +222,5 @@ export const getLocalStorage = () => {
     return { employees, admin }
 
 
-    //converts the string of json , back to json
-    // console.log(JSON.parse(data));
+
 }
