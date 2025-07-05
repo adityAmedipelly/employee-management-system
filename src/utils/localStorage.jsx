@@ -202,7 +202,6 @@ const employees = [
     }
 ];
 
-
 const admin = [{
     "id": 1,
     "email": "admin@example.com",
@@ -220,7 +219,5 @@ export const getLocalStorage = () => {
     const admin = JSON.parse(localStorage.getItem('admin'))
 
     return { employees, admin }
-
-
 
 }
