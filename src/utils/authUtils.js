@@ -7,7 +7,7 @@ export const validateCredentials = (email, password, userData) => {
         data: null
       }
     }
-  
+
     // Check for employee
     const employee = userData?.find(emp => emp.email === email && emp.password === password)
     if (employee) {
